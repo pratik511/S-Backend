@@ -1,7 +1,0 @@
-[build]
-  publish = "public"
-
-[[redirects]]
-  from = "/"
-  to = "/api/v1/products"
-  status = 302
