@@ -1,7 +1,7 @@
-const cors = require('cors');
-const dotenv = require("dotenv");
 const app = require("./app");
 const connectDatabase = require("./config/dataBase");
+const cors = require('cors');
+const dotenv = require("dotenv");
 
 
 
