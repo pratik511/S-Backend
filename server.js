@@ -21,8 +21,7 @@ dotenv.config({path:"./config/.env"});
 connectDatabase()
 
 const server =  app.listen(process.env.PORT || 4000,() =>{
-    const port = server.address().port;
-    console.log(`Server is working on http://localhost:${port}`,app.settings.env);
+    console.log(`Server is working on http://localhost:${server.address().port}`,app.settings.env);
 })
 app.use(cors());
 
