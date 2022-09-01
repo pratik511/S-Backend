@@ -3,8 +3,6 @@ const connectDatabase = require("./config/dataBase");
 const cors = require('cors');
 const dotenv = require("dotenv");
 
-
-
 // Handling Uncaught Exception
 process.on("uncaughtException",(err) =>{
     console.log(`Error: ${err.message}`);
